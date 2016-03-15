@@ -1,1 +1,1 @@
-web: gunicorn cast.app --log-file -
+web: gunicorn cast.wsgi:app --log-file -
